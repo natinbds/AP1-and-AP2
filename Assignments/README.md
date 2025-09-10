@@ -1,4 +1,4 @@
-# Hey what's up? Look here ome important informations
+# Hey what's up? Look here some important informations
 
 <div align="center">
   
