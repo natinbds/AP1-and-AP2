@@ -1,0 +1,22 @@
+ Algoritmo "Questao_07" 
+// honestamente não sei o que faz, nem quis rodar, só to upando meus códigos
+  
+Var 
+   i, n:inteiro 
+  
+Inicio 
+   escreva("Digite o um valor:") 
+   leia(n) 
+   i<- 1 
+   repita 
+  
+      escreva(i:4:0) 
+      i<-i+1 
+      se (i%4=0) entao 
+         escreval(" PUM") 
+// pum???? tipo peido?
+         i<- i + 1 
+      fimse 
+   ate i > n 
+  
+Fimalgoritmo 

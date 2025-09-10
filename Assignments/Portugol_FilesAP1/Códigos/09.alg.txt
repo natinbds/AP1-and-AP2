@@ -1,0 +1,31 @@
+Algoritmo "Questao_09" 
+ // um verificador de aprovação de matéria na universidade, com base em notas de trabalho e média 75%  (16 faltas pra uma matéria de 64hrs)
+
+Var 
+   v, n, j, q, k, m, l, o:inteiro 
+   p: caractere 
+Inicio 
+   escreval("Digite o nome do aluno:") 
+   leia(p) 
+   escreval("Digite a s notas de prova respectivamente(0 a 100):") 
+   leia(v,n) 
+   escreval("Digite a nota do trabalho(0 a 100):") 
+   leia(j) 
+   Escreval("Digite a quantidade de faltas(0 a 64):") 
+   leia(q) 
+  
+   k<-(v*3) 
+   m<-(n*5) 
+   l<-(j*2) 
+   o<-(k+m+l)\10 
+  
+   se ((o>60) e (q>16))entao 
+      escreval("Aprovado") 
+   senao 
+      se((O>30) e (q>16))entao 
+         escreval("Prova Final") 
+      senao ((o<30) e (q>16)) entao 
+         escreval("Reprovado") 
+      fimse 
+   fimse 
+fimalgoritmo 

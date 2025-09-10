@@ -1,0 +1,22 @@
+Algoritmo "Questao_06" 
+ // calcula fatorial
+
+Var 
+   i, n, j:inteiro 
+Inicio 
+   escreval("Digite o um valor fatorial:") 
+   leia(n) 
+   i<-n 
+   j<-1 
+   repita 
+      escreva (i, " X ") 
+      j<- j*i 
+      i<-i-1 
+  
+   ate i<2 
+   escreva("1") 
+   escreval("") 
+   escreval("") 
+   escreval("O valor do fatorial",j) 
+  
+Fimalgoritmo 

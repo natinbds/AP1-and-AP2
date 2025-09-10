@@ -1,0 +1,21 @@
+Algoritmo "Questao_04" 
+// criador de tabuada do 1 até o 10, vezes o valor que o usuário escolher, com interface do valor escolhido, 1 ao 10, e resultado
+  
+Var 
+   i, n, t:inteiro 
+Inicio 
+  
+   escreval("Digite um valor para prosseguir com a tabuada: ") 
+   leia (n) 
+   i<- 1 
+    escreval("Tabuada de ",n) 
+   repita 
+      t<- n*i 
+  
+         escreval(n, " X",i ,"=", t) 
+      i<-i+1 
+  
+   ate(i > 10) 
+  
+  
+Fimalgoritmo 

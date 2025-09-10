@@ -1,0 +1,19 @@
+Algoritmo "Questao_05" 
+// honestamente não faço ideia do que seja, mas ele tá mostrando uma soma aleatória de múltiplos de N
+  
+Var 
+   i, n, t, j:inteiro 
+Inicio 
+  
+   escreval("Digite um valor para ver a soma dos múltiplos: ") 
+   leia (n) 
+   i<- 1 
+   repita 
+      t<- n*i 
+      j<- j+t 
+      i<-i+1 
+  
+   ate(i > 10) 
+      escreval("A soma dos múltiplos de ",n ," é ", j) 
+  
+Fimalgoritmo 

@@ -1,0 +1,37 @@
+Algoritmo "Questao_01" 
+// esse código é literal um menu de escolha com escolha caso dentro de um laço de repetição
+  
+Var 
+   ex:inteiro 
+  
+Inicio 
+   escreva("Escolha um exercício:") 
+   escreval("Opcões de 1 a 9, para sair do menu digite um 'número negativo'") 
+  
+   repita 
+      leia(ex) 
+      escolha(ex) 
+      caso 1 
+         escreval("1-EXERCÍCIO...") 
+      caso 2 
+         escreval("2-EXERCÍCIO...") 
+      caso 3 
+         escreval("3-EXERCÍCIO...") 
+      caso 4 
+         escreval("4-EXERCÍCIO...") 
+      caso 5 
+         escreval("5-EXERCÍCIO...") 
+      caso 6 
+         escreval("6-EXERCÍCIO...") 
+      caso 7 
+         escreval("7-EXERCÍCIO...") 
+      caso 8 
+         escreval("8-EXERCÍCIO...") 
+      caso 9 
+         escreval("9-EXERCÍCIO...") 
+  
+         fimescolha 
+      ate ((ex <= 0)ou(ex > 9)) 
+      escreval("FInalizando programa...") 
+  
+Fimalgoritmo

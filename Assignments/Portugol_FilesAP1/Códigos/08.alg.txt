@@ -1,0 +1,21 @@
+Algoritmo "Questao_08A&B" 
+// são duas questões em uma, uma pede 5 valores distintos, a outra quantas parcelas vc quer pagar em relação a variável p 
+Var 
+   p, v, n, j, q:inteiro 
+  
+Inicio 
+   j<-1 
+   escreval("Digite 5 valores ") 
+   repita 
+      leia(n) 
+       v<-v+n 
+       j<-j+1 
+   ate j=6 
+   escreval("Quantas parcelas deseja parcelar:") 
+   leia(q) 
+  
+   p<-v\q 
+  
+   escreval("Valor total a vista", v) 
+   escreval("Valor total em ", q," parcelas:",p) 
+Fimalgoritmo 
