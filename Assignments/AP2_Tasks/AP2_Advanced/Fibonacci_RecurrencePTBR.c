@@ -12,11 +12,11 @@ int fibonacci(int n) {
 } 
 
 int main() { 
-  int n = 5;  
+  int n = 5;  // apenas troque o valor de n, antes de rodar o codigo, nao precisa ficar fazendo pedido pro usuario com scanf e tal
   int resultado = fibonacci(n); 
   
   printf("O %d-ésimo termo da sequência de Fibonacci é %d\n", n, resultado); 
   
-  System(“pause”); 
+ // System(“pause”); - - - - - system pause nao ta funcionando aqui, só coloquei em comentario e o codigo rodou 
   return 0; 
 }
